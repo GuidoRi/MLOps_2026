@@ -1,29 +1,17 @@
-# Data en Modellen (Grote bestanden)
+
 data/
-*.zip
-*.tar.gz
-*.csv
-*.npy
-*.pth
-*.h5
-*.onnx
 
-# Python omgevingen
 venv/
-.env
-__pycache__/
-*.py[cod]
 
-# Snellius/HPC specifieke bestanden
+mlops_env/
+
 *.out
+
 *.err
+
 slurm-*.out
 
-
 __pycache__/
-*.pyc
-experiments/logs/
-experiments/results/
-.env
-.DS_Store
-*.egg-info/
+
+.ipynb_checkpoints/
+
